@@ -1,0 +1,12 @@
+clone repository
+cd <../bookstore>
+
+//Install Dependencies. npm will read package.json & install required dependencies
+npm install
+cd <../bookstore/client>
+
+// Install Bower
+npm install bower -g
+
+//install dependencies
+bower install angular angular-route jquery bootstrap --save
